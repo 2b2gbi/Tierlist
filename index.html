@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Tier List</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poetsen+One&display=swap');
+        </style>
+        
+    </head>
+    <body>
+        <h1 class="noto-sans-title">Tier List</h1>
+        <div id="board">
+            <div class="rowholder">
+                <div class="label noto-sans-title pink">
+                    SSS<br>(favorite)
+                </div>
+                <div class="row" ondrop="onDrop(event, this)">
+                </div>
+            </div>
+            <div class="rowholder">
+                <div class="label noto-sans-title red">
+                    S<br>I love it, I look for it
+                </div>
+                <div class="row" ondrop="onDrop(event, this)">
+                </div>
+            </div>
+            <div class="rowholder">
+                <div class="label noto-sans-title orange">
+                    A<br>I really like it
+                </div>
+                <div class="row" ondrop="onDrop(event, this)">
+
+                </div>
+            </div>
+            <div class="rowholder">
+                <div class="label noto-sans-title gold">
+                    B<br>I'm kind of into it
+                </div>
+                <div class="row" ondrop="onDrop(event, this)">
+
+                </div>
+            </div>
+            <div class="rowholder">
+                <div class="label noto-sans-title yellow">
+                    C<br>neutral / indifference (i don't care)
+                </div>
+                <div class="row" ondrop="onDrop(event, this)">
+                    
+                </div>
+            </div>
+            <div class="rowholder">
+                <div class="label noto-sans-title green">
+                    D<br>weird af, conditionally acceptable
+                </div>
+                <div class="row" ondrop="onDrop(event, this)">
+                    
+                </div>
+            </div>
+            <div class="rowholder">
+                <div class="label noto-sans-title blue">
+                    E<br>boner killer
+                </div>
+                <div class="row" ondrop="onDrop(event, this)">
+                    
+                </div>
+            </div>
+            <div class="rowholder">
+                <div class="label noto-sans-title purple">
+                    F<br>this is abysmal
+                </div>
+                <div class="row" ondrop="onDrop(event, this)">
+                    
+                </div>
+            </div>
+        </div>
+        <h2 class="noto-sans-title">Tags</h2>
+        <div id="bank">
+            
+            <div class="rowholder">
+                <div class="row" id="bankRow" ondrop="onDrop(event, this)">
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./cards.js"></script>
+</html>
